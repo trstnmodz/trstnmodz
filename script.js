@@ -1,8 +1,8 @@
 // Data for Apps (Total 100 apps)
 const apps = [
-    { name: "Spotify No Ads", version: "9.0.0.487", image: "spotify.jpg", link: "#" },
-    { name: "Picsart Pro", version: "27.2.6", image: "picsart.jpg", link: "#" },
-    { name: "CapCut Pro", version: "32.2.0", image: "capcut.jpg", link: "https://www.mediafire.com/file/ll59wgasj0gzrv3/CapCut_%2528trstnmodz%2529.apk/file" },
+    { name: "Spotify No Ads", version: "9.0.0.487", image: "/spotify.jpg", link: "#" },
+    { name: "Picsart Pro", version: "27.2.6", image: "/picsart.jpg", link: "#" },
+    { name: "CapCut Pro", version: "32.2.0", image: "/capcut.jpg", link: "https://www.mediafire.com/file/ll59wgasj0gzrv3/CapCut_%2528trstnmodz%2529.apk/file" },
     { name: "App Name 4", version: "1.0.0", image: "/img/app4.jpg", link: "#" },
     { name: "App Name 5", version: "2.0.1", image: "/img/app5.jpg", link: "#" },
     { name: "App Name 6", version: "3.0.2", image: "/img/app6.jpg", link: "#" },
