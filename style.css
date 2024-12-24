@@ -1,0 +1,177 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Featured Section */
+.featured {
+    padding: 20px;
+}
+
+.featured h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* App Grid */
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.app-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+}
+
+.app-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.app-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.app-card p {
+    color: #666;
+}
+
+.app-card button {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.app-card button:hover {
+    background-color: #008c9e;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.pagination div {
+    display: flex;
+    gap: 5px;
+}
+
+.page-number {
+    padding: 10px 15px;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page-number:hover {
+    background-color: #e8f5e9;
+}
+
+.page-number.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
